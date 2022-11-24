@@ -19,7 +19,7 @@ struct t_dados{
 	t_dados dados[2];
 void rank(){
     FILE *p;
-    char str[80] = "ranking";
+    char str[80] = "ranking.txt";
 	char f;
 
 	p = fopen(str,"a+");	
